@@ -20,7 +20,9 @@ const HeroSection = () => {
       {/* Ocean texture overlay */}
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-gradient-to-br from-blue-400/30 to-blue-600/30"></div>
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.1\"%3E%3Cpath d=\"M30 0c16.569 0 30 13.431 30 30s-13.431 30-30 30S0 46.569 0 30 13.431 0 30 0zm0 6c13.255 0 24 10.745 24 24s-10.745 24-24 24S6 43.255 6 30 16.745 6 30 6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
+        <div className="absolute inset-0 animate-pulse opacity-10">
+          <div className="w-full h-full bg-white/20 bg-[radial-gradient(circle_at_50%_50%,_rgba(255,255,255,0.1)_1px,_transparent_1px)] bg-[length:60px_60px]"></div>
+        </div>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
